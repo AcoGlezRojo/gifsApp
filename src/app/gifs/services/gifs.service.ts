@@ -22,6 +22,6 @@ export class GifsService {
       this._historial = this._historial.splice(0,10);
     }
 
-    console.log(this._historial)
+    console.log(this._historial);
   }
 }
