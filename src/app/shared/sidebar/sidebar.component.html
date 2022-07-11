@@ -5,11 +5,10 @@
     </a>
     <hr class="text-white">
     <ul class="nav nav-pills flex-column mb-auto">
-        <li>
+        <li *ngFor="let item of historial">
             <a href="#" class="nav-link text-white" aria-current="page">
-                Dashboard
+                {{ item | titlecase }}
             </a>
         </li>
-
     </ul>
 </div>
